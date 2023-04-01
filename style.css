@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* alterado para um tom mais claro */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff; /* alterado para branco */
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"],
+  input[type="checkbox"] {
+    width: 150px;
+    margin-left: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 30px;
+  }
+  
+  input[type="button"] {
+    margin-top: 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #023e8a;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #F5F5F5; /* fundo mais claro para melhor contraste */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  table th {
+    background-color: #0077b6;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  table td {
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #teams {
+    display: flex;
+    align-items: center;
+  }
+  
+  #teams label {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077b6;
+  }
+  
+  .team-a {
+    background-color: #0077b6;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .team-b {
+    background-color: #023e8a;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  

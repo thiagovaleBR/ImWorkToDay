@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Verificar trabalho</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Verificar trabalho</h1>
+  </header>
+  <main>
+    <form>
+      <label for="date">Digite a data:</label>
+      <input type="date" id="date">
+      <br><br>
+      <fieldset>
+        <legend>Escolha a equipe:</legend>
+        <input type="radio" id="teamA" name="team" value="A">
+        <label for="teamA">Equipe A</label>
+        <input type="radio" id="teamB" name="team" value="B">
+        <label for="teamB">Equipe B</label>
+      </fieldset>
+      <br><br>
+      <input type="button" value="Verificar" onclick="verificar()">
+    </form>
+    <div id="resultado"></div>
+    <table>
+      <thead>
+        <tr>
+          <th>Equipe A</th>
+          <th>Equipe B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thiago Vale<br>Jonas</td>
+          <td>Thiago Andre<br>Matheus</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
